@@ -131,3 +131,26 @@
       transform: translateY(0);
     }
   }
+
+
+  @media (max-width: 768px) {
+    .notes-form input, .notes-form textarea{
+        width: 70%;
+        border: none;
+        padding: 2px;
+        outline: none;
+        font-size:  1.2em;
+        font-family: inherit;
+        resize: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 18px;
+        background-color:  #f5ba13;
+        color: white;
+        font-size: 18px;
+    }
+  }
