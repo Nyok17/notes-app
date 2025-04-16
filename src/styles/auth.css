@@ -1,0 +1,105 @@
+/* Auth.css - Shared styles for Login and Register */
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .auth-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form input {
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .auth-btn {
+    background: #FEBA17;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .auth-btn:hover {
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .social-buttons button {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .social-buttons .google {
+    color: #db4437;
+    border-color: #db4437;
+  }
+  
+  .social-buttons .facebook {
+    color: #4267B2;
+    border-color: #4267B2;
+  }
+  
+  .social-buttons .instagram {
+    color: black;
+    border-color: black;
+  }
+  
+  .social-buttons button:hover {
+    opacity: 0.7;
+  }
+  
+  .switch {
+    margin-top: 15px;
+  }
+  
+  .switch a {
+    color: #ff7e5f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .switch a:hover {
+    text-decoration: underline;
+  }
+  
